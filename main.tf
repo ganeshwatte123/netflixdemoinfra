@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "one" {
   count                  = 4
-  ami                    = "ami-03978d951b279ec0b"
+  ami                    = "ami-0e6a50b0059fd2cc3"
   instance_type          = "t2.medium"
   key_name               = "GaneshDevops"
   vpc_security_group_ids = ["sg-04a64a0e326f5b47b"]
